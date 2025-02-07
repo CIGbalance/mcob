@@ -12,6 +12,7 @@ website:
       - hello.qmd
       - mco_book.qmd
       - mco_book_3.qmd
+      - dom_rel.qmd
 
 format:
   html:

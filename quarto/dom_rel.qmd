@@ -1,0 +1,23 @@
+---
+title: "Dominance relationships"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+
+```{python}
+#| label: fig-dom
+#| fig-cap: "Dominance relationships"
+
+import plotly.graph_objects as go
+fig = go.Figure(go.Scatter(y=[1, 2, 3]))
+fig.add_trace(
+  go.Scatter(y=[3, 4, 5],
+             visible='legendonly',
+             name="test", mode='markers'))
+fig.show()
+
+
+```
